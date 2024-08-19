@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1º BIM</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+
+    ol {
+      list-style-type: decimal;
+    }
+
+    ol li {
+      color: purple;
+      margin-bottom: 10px;
+    }
+
+    .form-container {
+      max-width: 300px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #45a049;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      margin: auto;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card .container {
+      padding: 16px;
+    }
+
+    .card .container h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .card .container p {
+      color: #777;
+      font-size: 16px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+  </header>
+
+  <main>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <div class="form-container">
+      <form>
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <table>
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+      <tr>
+        <td>1, 1</td>
+        <td>1, 2</td>
+      </tr>
+      <tr>
+        <td>2, 1</td>
+        <td>2, 2</td>
+      </tr>
+      <tr>
+        <td>3, 1</td>
+        <td>3, 2</td>
+      </tr>
+      <tr>
+        <td>4, 1</td>
+        <td>4, 2</td>
+      </tr>
+    </table>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Imagem de Perfil">
+      <div class="container">
+        <h2>Nome do Usuário</h2>
+        <p>Descrição breve sobre o usuário. Pode incluir informações como hobbies, profissão ou qualquer outra coisa
+          interessante.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 1º BIM</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+
+    .vertical-menu {
+      width: 200px;
+    }
+
+    .vertical-menu a {
+      background-color: #eee;
+      color: black;
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+    }
+
+    .vertical-menu a:hover {
+      background-color: #ccc;
+    }
+
+    .vertical-menu a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    section {
+      background-color: #ffffcc;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .left-column {
+      float: left;
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .right-column {
+      float: left;
+      width: 70%;
+      background-color: #e0e0e0;
+      padding: 20px;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+  </header>
+
+  <main>
+    <div class="vertical-menu">
+      <a href="#" class="active">Home</a>
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+
+    <section>
+      <h1>Título da Seção</h1>
+      <p>Este é um parágrafo de exemplo dentro da seção.</p>
+    </section>
+
+    <div class="left-column">
+      <h2>Coluna da Esquerda</h2>
+      <p>Texto de exemplo aqui.</p>
+    </div>
+    <div class="right-column">
+      <h2>Coluna da Direita</h2>
+      <p>Texto de exemplo aqui.</p>
+    </div>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
